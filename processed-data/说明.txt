@@ -1,0 +1,2 @@
+存放data里面的data_train经过preprocess.py分出的训练集和验证集的图片和标签的路径
+同时也要处理测试集的数据
