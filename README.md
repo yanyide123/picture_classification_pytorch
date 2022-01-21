@@ -2,6 +2,8 @@
 
 参考的git原文：https://github.com/lxztju/pytorch_classification
 
+本文章的介绍：https://blog.csdn.net/TF666666/article/details/122614270
+
 ## 实现功能
 * 基础功能利用pytorch实现图像分类
 * 包含带有warmup的cosine学习率调整
@@ -23,15 +25,15 @@
 |-- data
     |-- train
         |--label1
-            |--*.jpg
+            |--*.png
         |--label2
-            |--*.jpg
+            |--*.png
         |--label    
-            |--*.jpg
+            |--*.png
         ...
 
     |-- val
-        |--*.jpg
+        |--*.png
 ```
 
 利用preprocess.py将数据集格式进行转换（图片格式不一样，更改图片格式，追加写入处理后的文件中）
